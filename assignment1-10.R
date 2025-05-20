@@ -37,3 +37,5 @@ tempdf -> final_statewise_gsdp
 ## step 5 
 ## save the final_statewise_gsdp in csv 
 
+final_statewise_gsdp %>% 
+  write_csv("final_statewise_gsdp.csv")
